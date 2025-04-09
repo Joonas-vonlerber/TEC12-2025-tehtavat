@@ -1,0 +1,9 @@
+Luo hakemistoja
+
+1. Lue hakemisto "hauskoja_elaimia" ja siirrä tiedostot "kissavideo.mp4" ja "musti_ripping_down_the_slopes.jpg" sinne.
+
+Muista: 
+"mkdir" (make dir) luo hakemistoja (directories). 
+esim.
+"mkdir heimoi" luo hakemiston "heimoi". 
+"mkdir -p moi/hei/" jos hakemisto "moi" ei olisi olemassa, ilman "-p" lippua tämä komento tuottaisi errorin. "-p" lippu kertoo, että luo kaikki puuttuvat vanhemmat (parents) ja se loisi siis ensin "moi/" hakemiston ja sinne "hei/" hakemiston.
