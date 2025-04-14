@@ -1,0 +1,7 @@
+Lue salainen tiedosto
+
+1. Lue tämän hakemiston salainen tiedosto käyttämällä `ls` komentoa. Löydä oikea lippu `ls` komennolle käyttämällä manuaalia
+
+Muista
+* `man` (manual) on komento, jolla voi tarkistaa jonkun komennon käytön.
+* `man cd` avaa manuaalin `cd`-komennolle. Voi liikkua ylös ja alas nuolinäppäimillä.

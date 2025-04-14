@@ -1,0 +1,12 @@
+Kopioi tiedostoja eri paikkoihin.
+
+1. Kopioi tiedosto `kopioi_minut_1.txt` hakemistoon `1/`.
+2. Kopioi tiedosto `kopioi_minut_2.txt` ja `kopioi_minut_2_myös.txt` hakemistoon `2/` yhdellä komennolla.
+3. Kopioi hakemisto `kopioi_minut_3/` hakemistoon `3/` yhdellä komennolla.
+
+Muista:
+* `cp` (copy) on komento, jolla voi kopioida tiedostoja ja hakemistoja paikasta A paikkaan B.
+esim.
+    - `cp kissa.txt kissakuvat/` kopioi tiedoston `kissa.txt` hakemistoon `kissakuvat/`.
+    - `cp kissa.txt koira.txt elainkuvat/` kopioi tiedostot `kissa.txt` ja `koira.txt` hakemistoon `elainkuvat/`.`cp -r elainkuvat/ kuvia/` kopioi 'rekursiivisesti' hakemiston `elainkuvat/` hakemistoon `kuvat/`. Rekursiivisuus tarkoittaa, että kopiointi tapahtuu jokaiselle tiedostolle ja hakemistolle hakemiston `elainkuvat` sisällä.
+    - cp toimii samalla lailla kuin mv paitsi hakemistot tehdään -r lipulla.
